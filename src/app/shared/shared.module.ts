@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { MaterialAwesomeComponentModule } from '../material.module';
 
 
 
@@ -10,7 +10,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     CommonModule
   ],
   exports: [
-    MatToolbarModule
+    MaterialAwesomeComponentModule
   ]
 })
 export class SharedModule { }
