@@ -14,3 +14,9 @@ ng g m social-media --routing
 
 components:
  ng g c core/components/header
+
+Pour utiliser un component material : il faut importer son module
+--> Comme il est succeptible d'être utiliser ailleurs dans l'application
+--> On veut que n'importe quel module qui importe sharedmodule y est acces
+--> On l'exporte directement dans sharedModule (le module material en question)
+--> Ca permet aux modules qui consomment sharedModule d'accéder au composant (sans l'importer)
