@@ -45,6 +45,7 @@ import { MatTreeModule } from '@angular/material/tree';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { CdkMenuModule } from '@angular/cdk/menu';
 import { DialogModule } from '@angular/cdk/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 const MaterialComponents = [
   A11yModule,
@@ -56,6 +57,7 @@ const MaterialComponents = [
   CdkTreeModule,
   DragDropModule,
   MatAutocompleteModule,
+  MatFormFieldModule,
   MatBadgeModule,
   MatBottomSheetModule,
   MatButtonModule,

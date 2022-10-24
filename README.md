@@ -20,3 +20,6 @@ Pour utiliser un component material : il faut importer son module
 --> On veut que n'importe quel module qui importe sharedmodule y est acces
 --> On l'exporte directement dans sharedModule (le module material en question)
 --> Ca permet aux modules qui consomment sharedModule d'accéder au composant (sans l'importer)
+
+Création d'un composant partagé : comments dans sharedmodule
+ng g c shared/components/comments --exports

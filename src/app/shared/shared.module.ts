@@ -1,16 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialAwesomeComponentModule } from '../material.module';
-
-
+import { CommentsComponent } from './components/comments/comments.component';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ],
-  exports: [
-    MaterialAwesomeComponentModule
-  ]
+  declarations: [CommentsComponent],
+  imports: [CommonModule, MaterialAwesomeComponentModule],
+  exports: [MaterialAwesomeComponentModule, CommentsComponent],
 })
-export class SharedModule { }
+export class SharedModule {}
