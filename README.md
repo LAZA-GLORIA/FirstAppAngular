@@ -23,3 +23,9 @@ Pour utiliser un component material : il faut importer son module
 
 Création d'un composant partagé : comments dans sharedmodule
 ng g c shared/components/comments --exports
+
+Animation: 
+Trigger attribut que l'on doit mettre à l'élément html doit être animé
+
+Expression ngFor pour récuperer i qui correspond à l'index de comment dans le tableau de comments
+*ngFor="let comment of comments; let i = index"

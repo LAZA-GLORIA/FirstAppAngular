@@ -19,7 +19,6 @@ import { MaterialAwesomeComponentModule } from './material.module';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule,
     CoreModule,
     SharedModule,
     MaterialAwesomeComponentModule
